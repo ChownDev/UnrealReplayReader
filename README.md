@@ -1,9 +1,7 @@
 # UnrealReplayReader
 
 ---
-
-```
-                       var settings = new ReplayReaderSettings
+                      var settings = new ReplayReaderSettings
                         {
                             IsDebug = true,
                             Logger = null,
@@ -11,7 +9,7 @@
                             ExportConfiguration = ReplayExportConfiguration.FromAssembly(typeof(GameStateExport))
                         };
 
-                        var replay = FortniteReplayReader.FromFile(filePath, settings);```
+                        var replay = FortniteReplayReader.FromFile(filePath, settings);
 
 ## Build
 
